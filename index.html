@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>박영초 • 소개</title>
+  <link rel="shortcut icon" href="https://ifh.cc/g/NyyYWn.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+  <style>
+    * {
+      cursor: url('https://ifh.cc/g/RxYG1P.png') 2 2, auto;
+      user-select: none;
+    }
+    body {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      width: 98vw;
+      margin: 0px 1vw;
+      font-family: "Gowun Dodum", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      overflow-x: hidden;
+    }
+    a {
+      text-decoration: none; 
+      color: black; 
+      transition: all 0.3s ease;
+      font-weight: 400;
+    }
+    a:hover {
+      box-shadow: 0px 0px 1px #000000;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 2px; 
+    }
+    
+    .header_profile {
+      width: 98%;
+      height: 300px;
+      margin: 1%;
+      display: flex;
+      justify-content: center;
+    }
+    #header_profile_img {
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 225px;
+      transform: translateY(-50%);
+      left: 8%;
+    }
+    #header_profile_img img {
+      width: 120px;
+      height: 120px;
+      border: 1.5px solid #D3D3D3;
+      outline: 12px solid white;
+      border-radius: 50%;
+      transition: all 0.8s ease;
+    }
+    #header_profile_img img:hover {
+      transform: scale(1.1) translateY(-10%) rotate(360deg);
+      outline: 8px solid white;
+    }
+    #header_profile_background-img {
+      width: 90vw;
+      height: 200px;
+      border-radius: 15px;
+      margin-top: 10px;
+      background-color: #F7E0CD;
+      animation: background-change 20s infinite;
+      transition: all 5s ease;
+    }
+    @keyframes background-change {
+      0% { background-color: #F7E0CD; }
+      25% { background-color: #FFC89A; }
+      50% { background-color: #FFDD9A; }
+      60% { background-color: #FFBC9A; }
+      100% { background-color: #F7E0CD; }
+    }
+    #header_profile_name {
+      font-size: 32px;
+      font-weight: bold;
+      position: absolute;
+      top: 250px;
+      transform: translateY(-50%);
+      left: calc(10% + 115px);
+    }
+    #header_profile_name::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      margin-top: 4px;
+      background-color: #DCDCDC; 
+    }
+    #header_profile_info {
+      position: absolute;
+      top: 282px;
+      left: calc(10% + 115px);
+      font-weight: bolder;
+      font-size: 14px;
+    }
+
+    .bodyer_content_title {
+      width: 90vw;
+      font-weight: bold;
+      font-size: 25px;
+      padding-left: 25px;
+      margin-bottom: 10px;
+    }
+    .bodyer_content {
+      width: 90vw;
+      padding: 30px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      border: 2px dashed #BBBBBB;
+      overflow-x: hidden; 
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header_profile">
+    <div id="header_profile_background-img">
+      <img src="" />
+    </div>
+    <div id="header_profile_img">
+      <img src="https://ifh.cc/g/NyyYWn.png" />
+    </div>
+    <div id="header_profile_name">
+      <span id="header_profile_mainname">박영초</span>
+      <span id="header_profile_subname" style="font-size: 18px;">( @park0sec )</span>
+    </div>
+    <div id="header_profile_info">
+      <span>구글</span>
+      <a href="mailto:jaksim0sec@gmail.com">@jaksim0sec</a>
+      <span style="color: #AEAEAE;"> | </span>
+      <span>유튜브</span>
+      <a href="https://www.youtube.com/@박영초">@박영초</a>
+      <span style="color: #AEAEAE;"> | </span>
+      <span>엔트리</span>
+      <a href="https://naver.me/xKQingLm">@박영쵸</a>
+      <span style="color: #AEAEAE;"> | </span>
+      <span>인스타</span>
+      <a href="https://www.instagram.com/jaksim0sec/">@jaksim0sec</a>
+      <span style="color: #AEAEAE;"> | </span>
+      <span>깃허브</span>
+      <a href="https://github.com/jaksim0sec">@jaksim0sec</a>
+      <span style="color: #AEAEAE;"> | </span>
+      <span>리플잇</span>
+      <a href="https://replit.com/@jaksim0sec">@jaksim0sec</a>
+    </div>
+  </div><!--head profile-->
+  <div class ="bodyer_content_title">의뢰</div>
+  <div class="bodyer_content">
+    <h3 style="color: #AEAEAE;">아직 준비중입니다!</h3>
+  </div>
+</body>
+</html>
